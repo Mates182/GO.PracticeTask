@@ -6,7 +6,9 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "hello world\n")
+	fmt.Fprintf(w, "Welcome, this page is deployed on Docker\n")
+	fmt.Fprintf(w, "By: Mateo Pillajo :D\n")
+	fmt.Fprintf(w, "Made with Golang\n")
 }
 func main() {
 	http.HandleFunc("/", handler)

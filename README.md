@@ -24,6 +24,7 @@ cd GO.PracticeTask
 
 #### Running the Application
 1. Inside the project directory, run the following command to start the server:
+
    ```bash
    go run main.go
    ```
